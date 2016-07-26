@@ -1,0 +1,12 @@
+{
+    "perl"         : "6.c",
+    "name"         : "Ecosystem::Test",
+    "version"      : "1.001001",
+    "description"  : "Dummy module for testing ecosystem pipeline",
+    "depends"      : [ ],
+    "test-depends" : [ "Test" ],
+    "provides"     : {
+        "Ecosystem::Test" : "lib/Ecosystem/Test.pm6"
+    },
+    "authors"       : ["Zoffix Znet"]
+}
