@@ -4,7 +4,7 @@
     "version"      : "1.001001",
     "description"  : "Dummy module for testing ecosystem pipeline",
     "depends"      : [ ],
-    "test-depends" : [ "Test" ],
+    "test-depends" : [ "Test", "Test::META" ],
     "provides"     : {
         "Ecosystem::Test" : "lib/Ecosystem/Test.pm6"
     },
